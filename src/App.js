@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// <------- ##### Topic  8 React Component   ######----->
+// import React from "react";
+// import Heading from "./Heading";
+// import List from "./List";
+// import Paragraph from "./Paragraph";
+// function App() {
+//   return (
+//     <>
+//       <Heading></Heading>
+//       <Paragraph />
+//       <List></List>
+//       <Paragraph />
+//     </>
+//   );
+// }
+// export default App;
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
