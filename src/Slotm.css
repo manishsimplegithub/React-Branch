@@ -1,0 +1,21 @@
+* {
+    overflow: hidden;
+}
+
+.Heading_style {
+    text-align: center;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+
+
+.slotmachine {
+    text-align: center;
+    width: 30%;
+    height: 600px;
+    margin-left: 30%;
+    font-size: 15px;
+
+    background-color: aliceblue;
+}
