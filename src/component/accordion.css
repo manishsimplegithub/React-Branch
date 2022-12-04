@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Cantarell:italic|Droid+Serif:bold");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: whitesmoke; */
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#fcf5f5, #eff4fd);
+}
+
+.main-div {
+    width: 30vh;
+    padding: 50vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgb(17, 17, 26, 0.05)0px 1px 0px,
+        rbga(17, 17, 0.1)0px, 0px, 8px
+}
+
+h1 {
+    text-align: center;
+    font-family: "bitter", serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    letter-spacing: 5;
+    word-spacing: 5px;
+    margin-bottom: 50px;
+    color: #2c3148;
+
+}
+
+.main-heading {
+    display: flex;
+    margin-top: 30px;
+    padding: 20px 0 px 20px;
+    background: #f1f4ff;
+    border-radius: 5px;
+    box-shadow: #fcf5f5;
+}

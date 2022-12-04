@@ -7,7 +7,7 @@
 
  .main_div {
 
-     background-color: aqua;
+     background-color: red;
      text-align: center;
 
      width: 400px;
@@ -32,15 +32,15 @@
      height: 50px;
      width: 105px;
      margin-right: 29%;
-     background-color: blueviolet;
-     color: white;
+     background-color: black;
+     color: yellow;
      font-family: 'Times New Roman', Times, serif;
 
 
  }
 
  .main:hover {
-     background-color: #20bf6b;
+     background-color: darkblue;
      cursor: pointer;
  }
 
