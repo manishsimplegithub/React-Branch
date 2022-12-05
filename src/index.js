@@ -351,10 +351,10 @@
 
 /* // <_________ topic 12 Hooks in React js  ________________> */
 
-// import React from "react";
-// import ReactDOM from "react-dom";
-// import App from "./App.jsx";
-// import "./navigation.css";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App.jsx";
+import "./navigation.css";
 // import MyAccordion from "./MyAccordion";
 // import DeleteIcon from "@mui/icons-material/Delete";
 // import "./hooks.css";
@@ -363,13 +363,13 @@
 // import Todo from "./todo";
 // import Todo from "./todo.jsx";
 
-// ReactDOM.render(
-//   <>
-//     <App />
-//     {/* <MyAccordion /> */}
-//   </>,
-//   document.getElementById("root")
-// );
+ReactDOM.render(
+  <>
+    <App />
+    {/* <MyAccordion/> */}
+  </>,
+  document.getElementById("root")
+);
 
 // const fullName = ["manish", "srivastav"];
 // const biodata = ["23", "male", ...fullName];
@@ -423,16 +423,23 @@
 // const city = [...name, ...sname];
 // console.log(city);
 
-import React from "react";
-import ReactDOM from "react-dom";
-import Responsive from "./component/ResponsiveAnimated/Responsive";
-import { BrowserRouter, Routes } from "react-router-dom";
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import Main from "./Component2/projectWork/Main.jsx";
+// import App from "./App.jsx";
+// import "./navigation.css";
+// import MyAccordion from "./MyAccordion";
+// import DeleteIcon from "@mui/icons-material/Delete";
+// import "./hooks.css";
+// import "./ToDol.css";
+// import "./Incrementing.css";
+// import Todo from "./todo";
+// import Todo from "./todo.jsx";
 
-ReactDOM.render(
-  <>
-    <BrowserRouter>
-      <Responsive />
-    </BrowserRouter>
-  </>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <>
+//     <Main />
+//   </>,
+
+//   document.getElementById("root")
+// );
