@@ -351,10 +351,10 @@
 
 /* // <_________ topic 12 Hooks in React js  ________________> */
 
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App.jsx";
-import "./navigation.css";
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./App.jsx";
+// import "./navigation.css";
 // import MyAccordion from "./MyAccordion";
 // import DeleteIcon from "@mui/icons-material/Delete";
 // import "./hooks.css";
@@ -363,13 +363,13 @@ import "./navigation.css";
 // import Todo from "./todo";
 // import Todo from "./todo.jsx";
 
-ReactDOM.render(
-  <>
-    <App />
-    {/* <MyAccordion/> */}
-  </>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <>
+//     <App />
+//     {/* <MyAccordion/> */}
+//   </>,
+//   document.getElementById("root")
+// );
 
 // const fullName = ["manish", "srivastav"];
 // const biodata = ["23", "male", ...fullName];
@@ -423,9 +423,12 @@ ReactDOM.render(
 // const city = [...name, ...sname];
 // console.log(city);
 
-// import React from "react";
-// import ReactDOM from "react-dom";
-// import Main from "./Component2/projectWork/Main.jsx";
+import React from "react";
+import ReactDOM from "react-dom";
+import Main from "./Component2/projectWork/Main.jsx";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import App from "./App.jsx";
 // import "./navigation.css";
 // import MyAccordion from "./MyAccordion";
@@ -436,10 +439,10 @@ ReactDOM.render(
 // import Todo from "./todo";
 // import Todo from "./todo.jsx";
 
-// ReactDOM.render(
-//   <>
-//     <Main />
-//   </>,
+ReactDOM.render(
+  <>
+    <Main />
+  </>,
 
-//   document.getElementById("root")
-// );
+  document.getElementById("root")
+);
