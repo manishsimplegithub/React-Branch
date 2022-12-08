@@ -1,9 +1,16 @@
 import React from "react";
+import Transfer from "./Transfer";
+import web from "../images/bullock-cart-cartoon-vector-illustration_96037-416.webp";
 
 const Home = () => {
   return (
     <>
-      <h1> hiiiii home page</h1>
+      <Transfer
+        name=" Meking website and App"
+        imgsrc={web}
+        visit="./Service"
+        btnname="Get Started"
+      />
     </>
   );
 };
