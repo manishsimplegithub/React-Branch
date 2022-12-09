@@ -1,11 +1,11 @@
 import React from "react";
-import web from "../images/bullock-cart-cartoon-vector-illustration_96037-416.webp";
+import web from "../images/second.webp";
 
 const Transfer = (props) => {
   return (
     <>
       <section id="header" className="d-flex align-items-center">
-        <div className="container-fluid nav_bg">
+        <div className="container-fluid ">
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
@@ -14,7 +14,7 @@ const Transfer = (props) => {
                     {props.name}
                     <strong className="brand-name"> TCS</strong>
                   </h1>
-                  <h2 className="my-3"> we are maiking Website and App</h2>
+                  <h2 className="my-3"> we are making Website and App</h2>
                   <div className="mt-3">
                     <a href={props.visit} className="btn-get-started">
                       {props.btnname}
@@ -23,7 +23,7 @@ const Transfer = (props) => {
                 </div>
                 <div className="col-lg-6  order-1 order-lg-2 header-image">
                   <img
-                    src={web}
+                    src={props.imgsrc}
                     className="img-fluid animated"
                     alt="home img"
                   />

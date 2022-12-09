@@ -1,6 +1,6 @@
 import React from "react";
 import Transfer from "./Transfer";
-import web from "../images/bullock-cart-cartoon-vector-illustration_96037-416.webp";
+import web from "../images/OIP.jpeg";
 
 const About = () => {
   return (

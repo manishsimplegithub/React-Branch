@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Muli", sans-serif;
+    background-color: beige;
 }
 
 .navbar {
@@ -85,6 +86,11 @@
     color: #3498bd;
     border: 2px solid #3498db;
     text-decoration: none;
+}
+
+.cover {
+
+    object-fit: cover;
 }
 
 #header .btn-get-started:hover {
