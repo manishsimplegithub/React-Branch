@@ -425,11 +425,13 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Main from "./Component2/projectWork/Main.jsx";
+// import Main from "./Component2/projectWork/Main.jsx";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import App from "./App.jsx";
+import GalleryReact from "./Component2/profile/GalleryReact";
+import "./Component2/profile/tab.css";
 // import "./navigation.css";
 // import MyAccordion from "./MyAccordion";
 // import DeleteIcon from "@mui/icons-material/Delete";
@@ -441,7 +443,9 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
 ReactDOM.render(
   <>
-    <Main />
+    {/* <Main /> */}
+    {/* <App/> */}
+    <GalleryReact />
   </>,
 
   document.getElementById("root")

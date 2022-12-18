@@ -1685,3 +1685,88 @@
 //   );
 // };
 // export default App;
+
+/* <_________ topic 35 Times faster with React JSX Autocomplete  _____________> */
+import React from "react";
+import "./Component2/projectWork/App.css";
+import todo from "./Component2/images/todo.jpg";
+import { useState } from "react";
+const App = () => {
+  const [inputData, setInputData] = useState("");
+  const [items, setitems] = useState([]);
+
+  const addItems = () => {
+    if (!inputData) {
+    } else {
+      setitems([...items, inputData]);
+      setInputData("");
+    }
+  };
+  //  delete
+  const deleteItem = (id) => {
+    console.log(id);
+    const updateditems = items.filter((elem, index) => {
+      return index =! id;
+    });
+    setitems(updateditems);
+  };
+
+  const removeAll = () => {
+    setitems([]);
+  };
+
+  // const InputEvent = (event) => {
+  //   setInputData(event.target.value);
+  //   console.log(event.target.value);
+  // };
+  return (
+    <>
+      <div className="main-div">
+        <div className="child-div">
+          <figure>
+            <img src={todo} alt="todologo" />
+            <figcaption>Add your List Here👍</figcaption>
+          </figure>
+          <div className="addItems">
+            <input
+              type="text"
+              placeholder=" 📓 Add Itemss..."
+              value={inputData}
+              onChange={(event) => setInputData(event.target.value)}
+            />
+            <i
+              className="fa fa-plus add-btn"
+              title="Add Item"
+              onClick={addItems}
+            ></i>
+          </div>
+          <div className="showItems">
+            {items.map((elem, index) => {
+              return (
+                <div className="eachItem" key={index}>
+                  <h3>{elem}</h3>
+                  <i
+                    className="far fa-trash-alt add-btn"
+                    title="Delete Item"
+                    onClick={() => deleteItem(index)}
+                  ></i>
+                </div>
+              );
+            })}
+          </div>
+          <div className="showItems">
+            <button
+              className="btn effect04"
+              data-sm-link-text="Reamove all"
+              onClick={removeAll}
+            >
+              <span>Check List</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default App;
